@@ -7,10 +7,10 @@ const App = () => {
   return (
     <>
       <div class="flex flex-row h-full">
-        <div class="lg:w-64 fixed">
+        <div class="lg:w-64 md:w-52 fixed">
           <SideMenu />
         </div>
-        <main class="flex-1 lg:ml-64 p-4">
+        <main class="flex-1 lg:ml-64 md:ml-52 p-4 h-full">
           <Root />
         </main>
       </div>
