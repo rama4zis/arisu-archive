@@ -6,8 +6,16 @@ const App = () => {
 
   return (
     <>
-      <SideMenu />
-      <Root />
+      <div class="flex flex-row h-full">
+        <div class="lg:w-64 fixed">
+          <SideMenu />
+        </div>
+        <main class="flex-1 lg:ml-64 p-4">
+          <Root />
+        </main>
+      </div>
+      ssss
+
     </>
 
   );
