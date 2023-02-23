@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import SideMenu from "./components/SideMenu";
+import Root from "./routes/root";
 
-function App() {
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div class="flex flex-row h-full">
+        <div class="lg:w-64 md:w-52 fixed">
+          <SideMenu />
+        </div>
+        <main class="flex-1 lg:ml-64 md:ml-52 p-4 h-full">
+          <Root />
+        </main>
+      </div>
+      ssss
+
+    </>
+
   );
+
 }
 
 export default App;
