@@ -51,11 +51,11 @@ const HomePage = () => {
         <div className="break-inside-avoid bg-slate-600 rounded-md p-4 mb-6">
           <div className="relative mb-4">
             <img src={currentBanner} alt="current banner" />
-            <div className="absolute bottom-0 left-0 flex justify-between w-full p-2">
-              <div className="text-slate-800 text-xs font-light bg-slate-100 p-1 rounded-md">Arisu</div>
-              <div className="text-slate-800 text-xs font-light bg-slate-100 p-1 rounded-md">Aru</div>
-              <div className="text-slate-800 text-xs font-light bg-slate-100 p-1 rounded-md">Shiroko (Riding)</div>
-              <div className="text-slate-800 text-xs font-light bg-slate-100 p-1 rounded-md">Saori</div>
+            <div className="absolute bottom-0 left-0 flex justify-between w-full px-4">
+              <div className="text-slate-100 shadow-md text-xl font-bold">Arisu</div>
+              <div className="text-slate-100 shadow-md text-xl font-bold">Aru</div>
+              <div className="text-slate-100 shadow-md text-xl font-bold">Shiroko (Riding)</div>
+              <div className="text-slate-100 shadow-md text-xl font-bold">Saori</div>
             </div>
           </div>
           <p className="text-white">
